@@ -1,0 +1,5 @@
+ifconfig eth0 11.0.0.30/30 netmask 255.255.255.0
+ifconfig eth1 11.0.0.26/30 netmask 255.255.255.0
+ifconfig eth2 11.0.0.22/30 netmask 255.255.255.0
+chmod +r /etc/quagga/ospfd.conf
+/etc/init.d/zebra start
