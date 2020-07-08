@@ -1,1 +1,1 @@
-ifconfig eth0 40.0.2.3/24 up
+ifconfig eth0 44.0.2.3/24 up
