@@ -1,0 +1,12 @@
+$TTL    60000
+@               IN      SOA     sv404.uoc.edu.es.    root.uoc.edu.es. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               IN      NS      sv404.uoc.edu.es.
+sv404           IN      A       104.2.2.4
+www             IN      CNAME   sv404

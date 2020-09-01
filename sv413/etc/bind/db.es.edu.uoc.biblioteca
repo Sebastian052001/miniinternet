@@ -1,0 +1,12 @@
+$TTL    60000
+@               IN      SOA     sv413.biblioteca.uoc.edu.es.    root.biblioteca.uoc.edu.es. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               IN      NS      sv413.biblioteca.uoc.edu.es.
+sv413           IN      A       204.1.64.3
+www             IN      CNAME   sv413

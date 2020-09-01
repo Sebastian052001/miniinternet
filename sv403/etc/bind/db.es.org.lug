@@ -1,0 +1,12 @@
+$TTL    60000
+@               IN      SOA     sv403.lug.org.es.    root.lug.org.es. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               IN      NS      sv403.lug.org.es.
+sv403           IN      A       104.2.2.3
+www             IN      CNAME   sv403

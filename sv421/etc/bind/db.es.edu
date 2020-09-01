@@ -1,0 +1,12 @@
+$TTL    60000
+@               IN      SOA     sv421.edu.es.    root.edu.es. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               IN      NS      sv421.edu.es.
+sv421           IN      A       34.3.2.2
+www             IN      CNAME   sv421
