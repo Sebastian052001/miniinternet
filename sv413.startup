@@ -1,1 +1,10 @@
 ifconfig eth0 204.1.64.3/18 up
+route add default gw 204.1.64.1 eth0
+
+/etc/init.d/bind start
+mkdir -p /var/bind
+chown bind:bind /var/bind
+
+a2dissite 000-default.conf
+a2ensite biblioteca.uoc.edu.es
+/etc/init.d/apache2 start
